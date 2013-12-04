@@ -1,73 +1,64 @@
  body { 
- background:#FFFFFF; 
- font-family:Arial, Helvetica, sans-serif; 
+ background:#EDEDED; 
+ font-family:sans-serif; 
 }
 
 /* LAYOUT RULES */
 
 header {
     padding:0.700em 25%;
-    font-family:"Roboto Condensed", Arial, Helvetic, sans-serif;
+    font-family:sans-serif;
         font-weight:400;
         color:#000000;
 }
 
 nav { 
- background:url(img/purp.jpg);
- padding:0.8em 14%;
+ background:transparent;
+ padding:0.5em 17%;
 color:#81DAF5
 } 
 
 article { 
  background:#000000; 
- padding:2.5em 5% 0.625em; 
+ padding:4em 6% 0.625em; 
  color:#FFFFFF; 
  font-size:0.9em; 
 } 
  
 footer { 
- padding:0.700em 27%; 
+ padding:0.700em 28%; 
  color:#81DAF5; 
 }
 
 /* HEADING RULES */ 
  
 header h1 { 
- margin:10px 0; 
- font-size:70px; 
- padding-bottom:10px; 
-} 
-
-/* HEADING RULES */ 
- 
-header h1 { 
- margin:10px 0; 
+ margin:5px 0; 
  font-size:60px; 
- padding-bottom:10px; 
+ padding-bottom:5px;
 } 
 
 /* PARAGRAPH RULES */ 
  
 article p { 
- margin:30px ; 
-} 
- 
+ margin:15px ; 
+ text-indent:40px;}
+
 /* LIST RULES */ 
  
 article ul { 
- margin:17px 0; 
+ margin:20px 0; 
 } 
  
 article li { 
- list-style-type:circle; 
- margin-left:26px; 
- margin-bottom:12px; 
+ margin-left:35px; 
+ margin-bottom:15px; 
 } 
 
 /* LINK RULES */
 
 nav a:link, nav a:visited {
-    font-family:"Roboto Condensed", Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     font-size:18px;
     font-weight:400;
     padding:0 22px;
@@ -76,17 +67,20 @@ nav a:link, nav a:visited {
 }
 
 nav a:hover, nav a:active {
-    color:#000000;
-    text-decoration:underline;
+    color:#FFFFFF;
+    text-decoration:bold;
 }
 
 article a:link, article a:visited {
     color:#81DAF5;
     text-decoration:none;
+
 }
 
 article a:hover, article a:active {
-    text-decoration:underline;
+    text-decoration:bold;
+    color:#EDEDED;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -106,3 +100,4 @@ article a:hover, article a:active {
         width: 100%;
         
 }
+    
